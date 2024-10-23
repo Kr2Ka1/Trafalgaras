@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Mulish", sans-serif;
+   
+      
+}
+/* header{
+    width: 1487px;
+    height: 719px;
+    margin-top: 56px;
+    padding-left: -50px ;
+} */
+.mainHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 100px;
+    position: relative;
+}
+
+.logoContainer{
+    width: 150px;
+    height: 51px;
+}
+
+.navigationContaier{
+    width: 545px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigationContaier nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigationContaier nav ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.navigationContaier nav ul li a{
+text-decoration: none;
+font-weight: 400;
+color: rgba(128, 128, 128, 0.747);
+line-height: 22.59px;
+}
+.navigationContaier nav ul li a:hover{
+    text-decoration: underline #5c95f1 4px;
+    
+}
+
+.navigationContaier nav ul li:nth-child(1) a:nth-child(1) {
+    color: black;
+    font-weight: bold;
+}
+
+/* .element{
+width: 131.58px;
+height: 115px;
+top: 160px;
+left: -50px;
+gap: 0px;
+opacity: 0.3px;
+} */
+
+
+.middleHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 100px;
+    margin-top: 20px;
+    
+}
+
+.middleHeader .headerText{
+width: 25%;
+height: 400px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+padding-left: 50px;
+}
+
+.middleHeader .headerText h1{
+    font-weight: 800;
+    size: 80px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.middleHeader .headerText p{
+    font-weight: 300;
+    size: 21px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    color: #7D7987;
+
+}
+.headerBtn{
+    padding: 15px 35px;
+    background-color: #5c95f1;
+    border: solid 1px #5c95f1;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.headerBtn:hover{
+    background-color: white;
+    color: var(--lightViolet);
+    box-shadow: 0px 4.4px 8.8px 0px #0000001A;
+}
+
+
+
+.sectionOneText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 30px;
+}
+.ourServiceTitle{
+    padding: 25px 20px 20px 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+
+}
+.sectionOneText img{
+    padding: 0 0 40px 0;
+}
+
+.ourServiceText{
+    text-align: center;
+    line-height: 30px;
+    color: #7D7987;
+
+}
+
+.sectionOneBoxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 50px 200px;
+    position: relative;
+    
+    
+    
+}
+/* kodėl man nepavyksta uždeėti šešėlio ant dėžučoių, arba jis nesimato? */
+.box{
+    width: 30%;
+    border: 0.5px solid #f4ecec5a;
+    background-color: #ffffff;
+    box-shadow: 50px;
+    border-radius: 35px;
+    padding: 60px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.042) 0px 13px 27px -5px, rgba(0, 0, 0, 0.048) 0px 8px 16px -8px;
+}
+
+.boxContentTop{
+    padding-bottom: 20px;
+}
+.lagaminas{
+    padding-bottom: 20px;
+}
+
+.boxContentBottom h3{
+    padding-bottom: 15px ;
+    font-weight: 700;
+   
+}
+.boxContentBottom p{
+font-weight: 300;
+line-height: 28px;
+color: #7D7987;
+}
+
+.experment{
+    width: 100%;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+   
+
+}
+.blop{
+    width: 500px;
+    margin-top: 150px;
+}
+
+.burbuliukai{
+    margin-top: 400px;
+    margin-left: 1350px; 
+    
+    
+}
+
+@media screen and (max-width: 1000px){
+    .sectionOneBoxes {
+padding: 0 0px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.boxBtn{
+    font-size: 10px;
+
+}
+}
+
+
+
+.boxBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxBtn button{
+    padding: 15px 35px;
+    background-color: white;
+    border: solid 1px #5c95f1;
+    border-radius: 50px;
+    color: #5c95f1;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.boxBtn button:hover{
+    background-color: #5c95f1;
+    border: solid 3px #5c95f1;
+    color: white;
+}
+
+.textLhpBtn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.textMAppsBtn{
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.textMAppsBtn span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.sectionTwoBoxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   padding: 150px 20px 100px 70px;
+}
+
+.imageLhp{
+    width: 100%;
+    margin-left: 100px;
+
+}
+
+.imageLhp img{
+width: 500px;
+}
+
+
+.textLhp{
+    width: 80%;
+    height: 300px;
+    padding-left: 100px;
+    margin-right: 80px;
+}
+.textLhp h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.textLhp img{
+    margin: 15px 0 15px 0;
+}
+.textLhp p{
+    size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 30px;
+
+}
+
+.sectionThreeBoxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px 100px;
+}
+
+.textMApps{
+    width: 60%;
+    height: 300px;
+ 
+}
+
+
+.textMApps h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.textMApps img{
+    margin: 15px 0 15px 0;
+}
+.textMApps p{
+    size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 30px;
+
+}
+
+.imageMApps{
+    width: 100%;
+    margin-left: 100px;
+
+}
+
+.imageMApps img{
+width: 500px;
+}
+
+
+.slides{
+    width: 80%;
+    height: 300px;
+    margin: 50px 30px 50px 150px; 
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 20px;
+
+}
+
+.oneSlide{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px ;
+}
+
+.slideTop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 48px;
+}
+.slideTop img {
+    margin-top: 25px;
+    padding-left: 150px;
+}
+
+
+.slideTop h4{
+    width: 100%;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.slideBottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+
+.slideLeft{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 150px;
+    padding-right: 50px;
+}
+.slideLeftPic{
+    padding-left: 100px;
+}
+
+.slideLeftText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+    color: white;
+}
+.personTitle{
+    font-family:"Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.662);
+}
+
+.slideRight{
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding-left: 50px;
+}
+
+
+.sectionFiveBoxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.sectionFiveTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+
+.sectionFiveTitle h2{
+    font-family:"Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+
+    
+}
+.sectionFiveTitle img{
+   margin: 25px;
+   width: 70px;
+}
+
+.sectionFiveArticles {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    position: relative;
+}
+
+.article{
+    width: 30%;
+    height: 600px;
+    border: solid rgba(255, 255, 255, 0.989) 3px;
+    box-shadow: rgba(50, 50, 93, 0.042) 0px 13px 27px -5px, rgba(0, 0, 0, 0.048) 0px 8px 16px -8px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.article h3{
+    padding: 0 30px 30px 30px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+
+}
+.article p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    padding: 0 40px 30px 40px;
+}
+
+.article a{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0 40px 30px 40px;
+    color: #4089ED;
+    text-decoration: none;
+    
+}
+.article a:hover{
+    text-decoration: underline #5c95f1 4px
+}
+
+.vieWAll{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 20px 60px;
+
+}
+
+.blop2{
+    padding-left: 1300px;
+}
+.burbuliukai2{
+    
+    padding-left: 140px;
+   
+}
+
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #FFFFFF;
+
+}
+
+.footer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footerColumnOne{
+    width: 30%;
+    position: relative;
+}
+.burbuliukaiFooterOne{
+    padding-right: 1600px;
+    padding-top: 300px;
+}
+.burbuliukaiFooterTwo{
+    padding-left: 1300px;
+    padding-bottom: 450px;
+   
+}
+.footerColumnOne svg{
+    padding-bottom: 5px;
+}
+.footerColumnOne p{
+    padding: 10px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
+}
+.footerColumnTwo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerColums h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.footerColums li{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 38px;
+    list-style: none;
+    
+}
+.footerColums li a{
+    text-decoration: none;
+    color: white;
+}
+
