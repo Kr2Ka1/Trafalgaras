@@ -62,7 +62,7 @@ line-height: 22.59px;
 }
 
 .navigationContaier nav ul li:nth-child(1) a:nth-child(1) {
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
