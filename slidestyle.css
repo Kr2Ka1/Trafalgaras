@@ -52,6 +52,7 @@
 }
 .slider{
     position: relative;
+    container-type: inline-size;
 }
 
 .card{
@@ -62,6 +63,7 @@
     position: absolute;
     opacity: 0;
     transition: opacity 0.6s ease;
+    width: 100cqw;
 }
 
 .card.active{
@@ -106,20 +108,27 @@
     margin: 0 15px;
     display: inline-block;
     cursor: pointer;
+    opacity: 0.3;
 }
 
 .dot.active{
-    background-color: #126df5;
+    opacity: 1;
+    background-color: #5A98F2;
 }
 .prev{
     rotate: 180deg;
     margin-right: 90px;
     margin-bottom: 2px;
     cursor: pointer;
+    opacity: 0.3;
 }
 .next{
     margin-left: 90px;
     margin-top: 5px;
     cursor: pointer;
+    opacity: 0.3;
 }
 
+.prev:hover, .next:hover {
+opacity: 1;
+}
